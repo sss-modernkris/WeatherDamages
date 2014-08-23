@@ -13,19 +13,23 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## Sever Storms and Damages in USA -  Shiny App
-
 <a href="http://modernkris.shinyapps.io/00_ClassProject-Submittals/">Severe Storms and Damages in USA</a>
 
-This App shows data collected over 50 years of weather events and their damages in United States and it is from "U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database"
+```r
+BGNYEAR=1950; ENDYEAR=2011; df = paste("Storm Data is from ", BGNYEAR, " to ", ENDYEAR); df
+```
+
+```
+## [1] "Storm Data is from  1950  to  2011"
+```
+This App shows data collected over 60 years of weather events and their damages in United States and it is from "U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database"
 
 This App contains 3 tabs (USA, State, County) and to Dropdown dynamic selection lists for Selecting State and County.
 USA Tab show Top Ten Weather events for Damages in Fatalities, Injuries, Crop and Property over all these years.
-It also show the total damages incurred by month of the year for Top 4 Weather Events.
-
+It also show the total damages incurred by month of the year for Top 4 Weather Events. 
 State and County Tab shows the data for selected state and county.
 
 Next Three slides show the screen shots and few details.
-
 Try it by clicking the link at top of this slide
 
 ---
